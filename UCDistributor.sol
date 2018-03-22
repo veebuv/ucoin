@@ -39,7 +39,7 @@ contract UCDistributor is Ownable {
     
     function transfer ( address tokenAddress, address addy, uint256 total)
     public {
-        UCoin(tokenAddress).transfer(addy, total);
+        dc.transfer(addy, total);
     }
     
     function balanceOf (address addy)

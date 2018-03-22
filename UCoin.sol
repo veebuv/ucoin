@@ -2,7 +2,7 @@ pragma solidity ^0.4.18;
 
 import './BaseToken.sol';
 
-contract Ucoin is BaseToken {
+contract UCoin is BaseToken {
   // Publicly listed name
   string public name = "U COIN";
   // Symbol under which token will be trading
@@ -17,7 +17,7 @@ contract Ucoin is BaseToken {
   address public masterWallet;
 
   // constructor function
-  function Ucoin()
+  function UCoin()
     public
   {
     // The wallet from which the contract is deployed, also the owner of the contract
